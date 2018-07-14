@@ -7,9 +7,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === '!forum') {
-    	message.reply('**FORUM**
-
-TEST');
+    	message.reply('TEST');
   	}
 });
 
