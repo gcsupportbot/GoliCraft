@@ -7,7 +7,13 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === '!forum') {
-    	message.reply('TEST');
+    	message.reply('Our forum link is: https://forum.GoliCraft.net');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === '!store') {
+    	message.reply('Our store is: https://store.GoliCraft.net');
   	}
 });
 
